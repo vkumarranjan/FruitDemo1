@@ -23,6 +23,7 @@
 		D671824E2BEB19DD003CE4A3 /* FruitNutirants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D671824D2BEB19DD003CE4A3 /* FruitNutirants.swift */; };
 		D67182502BEB1E54003CE4A3 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D671824F2BEB1E54003CE4A3 /* SettingsView.swift */; };
 		D67182522BEB2353003CE4A3 /* SettingLableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67182512BEB2353003CE4A3 /* SettingLableView.swift */; };
+		D6D3C1E02BEB6AF300C7519C /* SettingsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D3C1DF2BEB6AF300C7519C /* SettingsRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		D671824D2BEB19DD003CE4A3 /* FruitNutirants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitNutirants.swift; sourceTree = "<group>"; };
 		D671824F2BEB1E54003CE4A3 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		D67182512BEB2353003CE4A3 /* SettingLableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingLableView.swift; sourceTree = "<group>"; };
+		D6D3C1DF2BEB6AF300C7519C /* SettingsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 				D671824B2BE9D861003CE4A3 /* SourceLinkView.swift */,
 				D671824D2BEB19DD003CE4A3 /* FruitNutirants.swift */,
 				D67182512BEB2353003CE4A3 /* SettingLableView.swift */,
+				D6D3C1DF2BEB6AF300C7519C /* SettingsRowView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 			files = (
 				D67182442BE9C7DA003CE4A3 /* FruitData.swift in Sources */,
 				D671824E2BEB19DD003CE4A3 /* FruitNutirants.swift in Sources */,
+				D6D3C1E02BEB6AF300C7519C /* SettingsRowView.swift in Sources */,
 				D671824C2BE9D861003CE4A3 /* SourceLinkView.swift in Sources */,
 				D67182392BE87717003CE4A3 /* FruitCardView.swift in Sources */,
 				D67182522BEB2353003CE4A3 /* SettingLableView.swift in Sources */,
