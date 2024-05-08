@@ -15,10 +15,13 @@ struct SettingsRowView: View {
     var linkDestination: String? = nil
     
     var body: some View {
-        HStack {
-            Text(name).foregroundColor(.gray)
-            Spacer()
-            Text(content ?? "")
+        VStack {
+            Divider().padding(.vertical, 4)
+            HStack {
+                Text(name).foregroundColor(.gray)
+                Spacer()
+                Text(content ?? "")
+            }
         }
     }
 }
