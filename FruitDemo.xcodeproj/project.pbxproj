@@ -19,6 +19,10 @@
 		D67182462BE9CD13003CE4A3 /* FruitRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67182452BE9CD13003CE4A3 /* FruitRowView.swift */; };
 		D67182482BE9D12A003CE4A3 /* FruitDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67182472BE9D12A003CE4A3 /* FruitDetails.swift */; };
 		D671824A2BE9D4C5003CE4A3 /* FruitHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67182492BE9D4C5003CE4A3 /* FruitHeaderView.swift */; };
+		D671824C2BE9D861003CE4A3 /* SourceLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D671824B2BE9D861003CE4A3 /* SourceLinkView.swift */; };
+		D671824E2BEB19DD003CE4A3 /* FruitNutirants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D671824D2BEB19DD003CE4A3 /* FruitNutirants.swift */; };
+		D67182502BEB1E54003CE4A3 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D671824F2BEB1E54003CE4A3 /* SettingsView.swift */; };
+		D67182522BEB2353003CE4A3 /* SettingLableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67182512BEB2353003CE4A3 /* SettingLableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +39,10 @@
 		D67182452BE9CD13003CE4A3 /* FruitRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitRowView.swift; sourceTree = "<group>"; };
 		D67182472BE9D12A003CE4A3 /* FruitDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitDetails.swift; sourceTree = "<group>"; };
 		D67182492BE9D4C5003CE4A3 /* FruitHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitHeaderView.swift; sourceTree = "<group>"; };
+		D671824B2BE9D861003CE4A3 /* SourceLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceLinkView.swift; sourceTree = "<group>"; };
+		D671824D2BEB19DD003CE4A3 /* FruitNutirants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitNutirants.swift; sourceTree = "<group>"; };
+		D671824F2BEB1E54003CE4A3 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		D67182512BEB2353003CE4A3 /* SettingLableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingLableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +99,7 @@
 				D66432E52BE095F800571D52 /* ContentView.swift */,
 				D671823C2BE8BD6F003CE4A3 /* OnboardingView.swift */,
 				D67182472BE9D12A003CE4A3 /* FruitDetails.swift */,
+				D671824F2BEB1E54003CE4A3 /* SettingsView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -102,6 +111,9 @@
 				D671823A2BE8B46C003CE4A3 /* StartButtonView.swift */,
 				D67182452BE9CD13003CE4A3 /* FruitRowView.swift */,
 				D67182492BE9D4C5003CE4A3 /* FruitHeaderView.swift */,
+				D671824B2BE9D861003CE4A3 /* SourceLinkView.swift */,
+				D671824D2BEB19DD003CE4A3 /* FruitNutirants.swift */,
+				D67182512BEB2353003CE4A3 /* SettingLableView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -186,7 +198,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D67182442BE9C7DA003CE4A3 /* FruitData.swift in Sources */,
+				D671824E2BEB19DD003CE4A3 /* FruitNutirants.swift in Sources */,
+				D671824C2BE9D861003CE4A3 /* SourceLinkView.swift in Sources */,
 				D67182392BE87717003CE4A3 /* FruitCardView.swift in Sources */,
+				D67182522BEB2353003CE4A3 /* SettingLableView.swift in Sources */,
 				D67182462BE9CD13003CE4A3 /* FruitRowView.swift in Sources */,
 				D671823B2BE8B46C003CE4A3 /* StartButtonView.swift in Sources */,
 				D66432E62BE095F800571D52 /* ContentView.swift in Sources */,
@@ -195,6 +210,7 @@
 				D67182402BE9C712003CE4A3 /* FruitModel.swift in Sources */,
 				D67182482BE9D12A003CE4A3 /* FruitDetails.swift in Sources */,
 				D66432E42BE095F800571D52 /* FruitDemoApp.swift in Sources */,
+				D67182502BEB1E54003CE4A3 /* SettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
